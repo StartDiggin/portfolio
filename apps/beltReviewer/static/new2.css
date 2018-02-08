@@ -1,0 +1,39 @@
+.container{
+  height: 1000px;
+  width: 970px;
+  border: solid black 1px;
+  background-image: url("images/library-2.jpg");
+}
+.header{
+  height: 50px;
+  width: 100%;
+  text-align: right;
+  padding-top: 10px;
+}
+a{
+  margin: 10px;
+  color: lightblue;
+}
+.newBook{
+  width: 60%;
+  margin: 25px auto;
+}
+.bookForm{
+  height: 80%;
+  width: 70%;
+  margin-left: 35px;
+}
+h1{
+  color: white;
+}
+h4{
+  margin-left: 35px;
+  color: white;
+}
+h3{
+  margin: 5px;
+  color: white;
+}
+.submit{
+  margin-left: 300px;
+}

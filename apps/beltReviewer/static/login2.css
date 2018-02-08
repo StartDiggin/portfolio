@@ -1,0 +1,26 @@
+.container{
+  height: 1000px;
+  width: 970px;
+  border: solid black 1px;
+  background-image: url("images/library-3.jpg");
+}
+input{
+  margin:15px;
+}
+.register{
+  height: 400px;
+  width: 75%;
+  margin: 50px auto;
+}
+.login{
+  height: 300px;
+  width: 75%;
+  margin: 200px auto;
+}
+h1{
+  color: white;
+}
+h3{
+  color: white;
+  display: inline-block;
+}

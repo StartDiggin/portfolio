@@ -1,0 +1,49 @@
+.container{
+  height: 1000px;
+  width: 970px;
+  border: solid Black 1px;
+  background-image: url("images/library-1.jpg")
+}
+.header{
+  height: 100px;
+  width: 100%;
+  /* border: solid black 1px; */
+}
+h1{
+  display: inline-block;
+  margin: 0px 500px 0px 10px;
+  color: white;
+}
+.recent{
+  height: 890px;
+  width: 60%;
+  display: inline-block;
+}
+h2{
+  margin-left: 10px;
+  color: white;
+}
+.recentBookList{
+  height: 90%;
+  width: 80%;
+  margin-left: 35px;
+}
+.other{
+  height: 890px;
+  width: 39%;
+  display: inline-block;
+  vertical-align: top;
+}
+.otherBookList{
+  height: 400px;
+  width: 80%;
+  border: solid black 1px;
+  overflow: scroll;
+  margin-left: 35px;
+}
+a{
+  color: yellow;
+}
+#a2{
+  color: lightblue;
+}

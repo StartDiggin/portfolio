@@ -1,0 +1,44 @@
+.container{
+  height: 1000px;
+  width: 970px;
+  border: solid black 1px;
+  background-image: url("images/library-4.jpg");
+}
+.header{
+  height: 25px;
+  width: 100%;
+  text-align: right;
+}
+a{
+  margin: 10px;
+  color: lightblue;
+}
+.reviews{
+  height: 890px;
+  width: 55%;
+  margin-left: 15px;
+  display: inline-block;
+}
+.addReview{
+  height: 890px;
+  width: 38%;
+  display: inline-block;
+  vertical-align: top;
+}
+#h3{
+  margin-top: 130px;
+}
+h1{
+  color: white;
+}
+h2, h3{
+  color: white;
+}
+p{
+  color: white;
+}
+.reviewBox{
+  height: 700px;
+  width: 80%;
+  margin: auto;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Add Review</title>
+    <link rel="stylesheet" type="text/css" href="../static/review2.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <a href="/home">Home</a>  <a href="/logout">Logout</a>
+      </div>
+      <div class="reviews">
+        <h1>{{ book.title }}</h1>
+        <h3>Author: {{ book.author }}</h3>
+        <h2>Reviews:</h2>
+        <div class="reviewBox">
+          {% for review in allReviews %}
+            <p><a href="/user/{{ review.writer.id }}">{{ review.writer.first_name }}</a>says: {{ review.comment }} And rates the book a {{ review.book.rate }}. </p>
+
+          {% endfor %}
+        </div>
+      </div>
+      <div class="addReview">
+        <form action="/addReview/{{ book.id }}" method="post">
+          {% csrf_token %}
+          <h3 id="h3">Add a Review: <textarea name="review" rows="8" cols="40"></textarea></h3>
+          <input type="submit" value="Submit Review">
+        </form>
+      </div>
+
+    </div>
+
+  </body>
+</html>

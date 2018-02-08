@@ -1,0 +1,33 @@
+.container{
+  height: 1000px;
+  width: 970px;
+  border: solid black 1px;
+  background-image: url("images/library-5.jpg");
+}
+.header{
+  height: 50px;
+  width: 100%;
+  text-align: right;
+  padding-top: 10px;
+}
+a{
+  margin:10px;
+  color: lightblue;
+}
+.userDetails{
+  margin-left: 15px;
+}
+h1{
+  color: white;
+}
+h2{
+  margin-top: 50px;
+  color: white;
+}
+h3{
+  margin-left: 15px;
+  color: white;
+}
+#bookTitles{
+  color: yellow;
+}
